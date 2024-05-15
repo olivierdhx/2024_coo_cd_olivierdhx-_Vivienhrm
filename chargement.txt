@@ -1,0 +1,7 @@
+Un objet magasin est construit en appelant la méthode chargerMagsin() via un
+objet ChargeurMagasin créé au préalable depuis le main. Un ChargeurCD est 
+ensuite construit et la méthode chargerCD() est appelée, cette méthode
+construit un CD et appele les méthodes extrairePiste() et ajouterPiste()
+deux fois. La CD ainsi créé est renvoyé dans la méthode chargerMagasin et
+la méthode ajouteCd(cd1) est appelée avant de renvoyer le magasin créé au
+main.
